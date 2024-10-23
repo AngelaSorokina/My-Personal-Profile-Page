@@ -83,6 +83,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -106,6 +107,13 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.images img {
+  margin: 20px;
+  max-width: 259px;
+  border-radius: 6px;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
@@ -192,6 +200,13 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .projects {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   header {
     min-height: 470px;
   }
@@ -228,5 +243,11 @@ a.social:hover {
   }
   .inner-page header {
     min-height: 250px;
+  }
+  .projects {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
   }
 }

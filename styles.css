@@ -62,6 +62,13 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+.inner-page header {
+  text-align: center;
+  background: url('images/new_background.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 header {
   line-height: 1.5;
 }
@@ -83,6 +90,11 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+}
+.inner-page .tag {
+  color: white;
+  background-color: transparent;
+  margin-top: 121px;
 }
 .location {
   background-color: #222;
@@ -181,6 +193,9 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+  .inner-page header {
+      min-height: 350px;
   }
 
   .nav {

@@ -64,7 +64,7 @@ header {
 }
 .inner-page header {
   text-align: center;
-  background: url('images/new_background.png') no-repeat top center ;
+  background: url('images/new_portfolio_background.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -91,11 +91,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
-.inner-page .tag {
-  color: white;
-  background-color: transparent;
-  margin-top: 121px;
-}
+
 .location {
   background-color: #222;
   color: yellow;
@@ -181,6 +177,11 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
+    .inner-page .tag {
+    color: white;
+    background-color: transparent;
+    margin-top: 121px;
+  }
 
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -195,7 +196,7 @@ a.social:hover {
     min-height: 470px;
   }
   .inner-page header {
-      min-height: 350px;
+    min-height: 350px;
   }
 
   .nav {
@@ -217,5 +218,15 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+}
+  /* Styles for small screens */
+@media screen and (max-width: 719px) {
+  .inner-page .tag {
+      color: white;
+      background-color: transparent;
+      margin-top: 61px;
+  }
+  .inner-page header {
+    min-height: 250px;
+  }
 }

@@ -221,6 +221,12 @@ a.social:hover {
     margin: 0 auto;
     text-align: center;
   }
+  .list {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
 
   header {
     min-height: 470px;
@@ -279,5 +285,11 @@ a.social:hover {
     max-width: 1200px;
     margin: 0px 30px 0px 30px;
     text-align: center;
+  }
+  .list {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0px 30px 0px 30px;
+    text-align: left;
   }
 }

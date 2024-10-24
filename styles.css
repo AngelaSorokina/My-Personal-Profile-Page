@@ -166,6 +166,10 @@ footer ul li {
   display: inline-block;
 }
 
+.tools {
+  margin-top: 40px;
+}
+
 a.social {
   display: inline-block;
   text-indent: -9999px;

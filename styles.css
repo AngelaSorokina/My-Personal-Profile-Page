@@ -62,7 +62,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
-.inner-page header {
+.portfolio-page header {
   text-align: center;
   background: url('images/new_portfolio_background.png') no-repeat top center ;
   background-size: cover;
@@ -187,7 +187,7 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-    .inner-page .tag {
+    .portfolio-page .tag {
     color: white;
     background-color: transparent;
     margin-top: 121px;
@@ -212,7 +212,7 @@ a.social:hover {
   header {
     min-height: 470px;
   }
-  .inner-page header {
+  .portfolio-page header {
     min-height: 350px;
   }
 
@@ -238,12 +238,12 @@ a.social:hover {
 }
   /* Styles for small screens */
 @media screen and (max-width: 719px) {
-  .inner-page .tag {
+  .portfolio-page .tag {
       color: white;
       background-color: transparent;
       margin-top: 61px;
   }
-  .inner-page header {
+  .portfolio-page header {
     min-height: 250px;
   }
   .projects {

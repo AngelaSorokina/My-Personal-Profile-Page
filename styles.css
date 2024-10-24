@@ -69,6 +69,13 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+.skills-page header {
+  text-align: center;
+  background: url('images/new_skills_background.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 header {
   line-height: 1.5;
 }
@@ -193,6 +200,12 @@ a.social:hover {
     margin-top: 121px;
   }
 
+  .skills-page .tag {
+  color: white;
+  background-color: transparent;
+  margin-top: 121px;
+  }
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
@@ -213,6 +226,10 @@ a.social:hover {
     min-height: 470px;
   }
   .portfolio-page header {
+    min-height: 350px;
+  }
+
+  .skills-page header {
     min-height: 350px;
   }
 
@@ -246,6 +263,17 @@ a.social:hover {
   .portfolio-page header {
     min-height: 250px;
   }
+
+  .skills-page .tag {
+      color: white;
+      background-color: transparent;
+      margin-top: 61px;
+  }
+
+  .skills-page header {
+    min-height: 250px;
+  }
+
   .projects {
     box-sizing: border-box;
     max-width: 1200px;
